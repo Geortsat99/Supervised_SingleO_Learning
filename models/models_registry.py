@@ -123,7 +123,7 @@ CLASSIFICATION_PARAM_GRIDS = {
                       "activation": ["relu", "tanh"],
                       "alpha": [0.0001, 0.001, 0.01],
                       "max_iter": [300]},
-    "SVC": {"C": [0.1, 1, 10],
+    "SVC": {"C": [0.1, 1, 10, 100, 1000, 10000, 100000],
             "kernel": ["rbf", "poly", "linear"],
             "gamma": ["scale", "auto"]},
     "Perceptron": {"penalty": [None, "l2", "l1", "elasticnet"],
