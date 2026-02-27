@@ -1,7 +1,7 @@
 from itertools import product
 
 
-class GridProductGenerator():
+class GridProductGenerator:
     def __init__(self, param_grid):
         self.param_grid = param_grid
 
@@ -14,3 +14,6 @@ class GridProductGenerator():
             param_combos.append(dict(zip(param_names, param_value)))
 
         return param_combos
+
+
+class
