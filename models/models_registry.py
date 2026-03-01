@@ -74,7 +74,7 @@ CLASSIFICATION_MODELS = {
 
 
 #GRID
-REGRESSION_PARAM_GRIDS = {
+PARAM_GRIDS = {
     "LinearRegression": {},
     "Lasso": {"alpha": [0.001, 0.01, 0.1, 1, 10]},
     "Ridge": {"alpha": [0.1, 1, 10, 100]},
@@ -106,9 +106,7 @@ REGRESSION_PARAM_GRIDS = {
                           "learning_rate": [0.01, 0.1]},
     "CatBoostRegressor": {"depth": [4, 6, 10],
                           "learning_rate": [0.01, 0.1],
-                          "iterations": [200, 500]}}
-
-CLASSIFICATION_PARAM_GRIDS = {
+                          "iterations": [200, 500]},
     "LogisticRegression": {"C": [0.1, 1, 10],
                            "penalty": ["l2"],
                            "solver": ["lbfgs"],

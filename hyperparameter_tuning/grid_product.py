@@ -15,5 +15,3 @@ class GridProductGenerator:
 
         return param_combos
 
-
-class

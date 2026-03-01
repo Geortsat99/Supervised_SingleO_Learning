@@ -7,10 +7,11 @@ import numpy as np
 
 
 class Evaluation:
-    def __init__(self, all_results_df, sort_metric,time_gravity=0):
+    def __init__(self, all_results_df, sort_metric, time_gravity=0):
         self.all_results_df = all_results_df
         self.sort_metric = sort_metric
         self.time_gravity = time_gravity
+
 
     def evaluate(self):
         all_res_df=self.all_results_df.copy()
