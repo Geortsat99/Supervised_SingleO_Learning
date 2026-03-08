@@ -1,6 +1,6 @@
-### SUPERVISED SINGLE OUTPUT LEARNING
+# SUPERVISED SINGLE OUTPUT LEARNING
 
-# <u>Ambition<u/>
+### <u>Ambition<u/>
 - I want to create my proper professional pipeline from the beginning for data preprocessing and model selection automation
 - The idea is to load the data, the user to configure some parameters and then the pipeline will return the optimal models and or tuned hyperparameters, validation methods etc.
 - Add a .gitignore file
